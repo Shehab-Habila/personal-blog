@@ -1,0 +1,50 @@
+body {
+	background-color: #e2e2e2;
+	text-align: center;
+}
+
+h2 {
+	color: #333;
+}
+
+/**/
+
+
+
+/**/
+
+.top-bar {
+	position: absolute;
+	margin: 0;
+	top: 0;
+	left: 0;
+	width: 100%;
+	background-color: #fff;
+	padding: 15px 0 15px 0;
+	font-size: 20px;
+	color: #333;
+}
+
+.post {
+	margin: auto;
+	left: 0;
+	right: 0;
+	width: 400px;
+	padding: 10px 10px 5px 10px;
+	word-wrap: break-word;
+	background-color: #eee;
+}
+
+.container {
+	margin: 0 0 5px 2.5px;
+	left: 0;
+	right: 0;
+	padding: 10px 30px;
+	width: 83.5%;
+	border: solid .5px rgb(210, 210, 210);
+	word-wrap: break-word;
+}
+
+/**/
+
+
