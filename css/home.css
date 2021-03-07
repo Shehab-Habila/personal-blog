@@ -1,0 +1,114 @@
+body {
+	background-color: #e2e2e2;
+}
+
+h1 {
+	color: #333;
+	font-size: 40px;
+}
+
+a {
+	text-decoration: none;
+}
+
+/**/
+
+#facebook {
+	left: 400px;
+}
+
+#youtube {
+	right: 400px;
+}
+
+#f-icon {
+	position: absolute;
+	margin: auto;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	height: 50px;
+	width: 50px;
+	background-color: #fff;
+	transition: 1s;
+	fill: rgb(12, 104, 243);
+}
+
+#y-icon {
+	position: absolute;
+	margin: auto;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	height: 50px;
+	width: 50px;
+	background-color: #fff;
+	transition: 1s;
+	fill: rgb(243, 48, 48);
+}
+
+/**/
+
+.area {
+	position: absolute;
+	margin: auto;
+	top: 5%;
+	left: 0;
+	right: 0;
+	width: 350px;
+	font-size: 16px;
+	color: #555;
+	padding: 0 10px 0 10px;
+	text-align: center;
+	word-wrap: break-word;
+}
+
+.discover {
+	position: absolute;
+	margin: auto;
+	left: 0;
+	right: 0;
+	width: 50px;
+	background-color: #444;
+	color: #e2e2e2;
+	cursor: pointer;
+	border-radius: 2px;
+	padding: 5px;
+	transition: 1s;
+}
+
+.bottom-bar {
+	position: absolute;
+	margin: auto;
+	bottom: 0;
+	left: 0;
+	height: 80px;
+	width: 100%;
+	background-color: #fff;
+}
+
+.link {
+	position: absolute;
+	margin: auto;
+	height: 100%;
+	width: 60px;
+	cursor: pointer;
+}
+
+/**/
+
+:hover#f-icon {
+	height: 60px;
+	width: 60px;
+}
+
+:hover#y-icon {
+	height: 60px;
+	width: 60px;
+}
+
+:hover.discover {
+	background-color: #555;
+}
